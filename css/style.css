@@ -12,6 +12,53 @@
 /*              MAIN STYLES              */
 /* _____________________________________ */
 
+body {
+    background-image: url("../images/villa.jpg");
+}
+
+.container-fluid {
+    width: 80%;
+    background: red;
+    position: relative;
+    margin-top: 10%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#topBar, footer, nav {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#topBar, footer {
+    background-color: #FCFCFC;
+}
+
+#topBar {
+    overflow: auto;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#topBar > a {
+    margin: 4.5px 0 0 10px;
+}
 
 
 
@@ -20,6 +67,34 @@
 /*              NAVIGATION               */
 /* _____________________________________ */
 
+nav {
+    background-color: #F2F2F2;
+    font-weight: bold;
+    border-bottom: 1px solid #BFBFBF;
+    border-top: 1px solid #fff;
+    vertical-align: middle;
+    line-height: 32px;
+    overflow: auto;
+}
+
+nav + ul {
+	list-style-type: none;
+	}
+
+nav ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+	
+nav li {
+	display: inline-block;
+    margin-right: 2%;
+	}
+
+.navbar-form {
+    margin: 0;
+    padding: 0;
+}
 
 
 
