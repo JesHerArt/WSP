@@ -14,13 +14,22 @@
 
 body {
     background-image: url("../images/villa.jpg");
+    position: relative;
+    background-position: -40px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container-fluid {
     width: 80%;
-    background: red;
     position: relative;
-    margin-top: 10%;
+    margin-top: 131px;
+    z-index: 1;
+}
+
+#mainContent {
+    margin: 2% auto;
+    padding: 0 2%;
 }
 
 header {
@@ -28,6 +37,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 #topBar, footer, nav {
@@ -42,6 +52,11 @@ header {
 #topBar {
     overflow: auto;
     border-bottom: 1px solid #BFBFBF;
+}
+
+footer {
+    padding: 2% 7% 1.5%;
+    border-top: 1px solid #BFBFBF;
 }
 
 .floatLeft {
@@ -60,6 +75,10 @@ header {
     margin: 4.5px 0 0 10px;
 }
 
+hr {
+    border-bottom: 1px solid #BFBFBF;
+    border-top: 1px solid #fff;
+}
 
 
 
@@ -102,6 +121,30 @@ nav li {
 /*           HEADINGS & TEXT             */
 /* _____________________________________ */
 
+#copyText {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.blurb {
+    background-color: hsla(360, 100%, 100%, 0.77);
+    border-radius: 5px;
+    padding: 3% 2%;
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 3%;
+}
+
+.blurb > small {
+    text-align: right;
+    font-weight: bold;
+    float: right;
+}
+
+.blurb > p {
+    margin-top: 5%;
+    text-align: center;
+}
 
 
 
@@ -126,6 +169,24 @@ nav li {
 /*                IMAGES                 */
 /* _____________________________________ */
 
+img {
+	max-width: 100%;
+}
+
+.footLogo {
+    width: 120px;
+    margin-top: -3px;
+}
+
+.jumbotron {
+    background-color: hsla(360, 100%, 100%, 0.65);
+}
+
+.blurb > img {
+    width: 70%;
+    border: 1px solid #BFBFBF;
+    box-shadow: 2px 2px 4px #666;
+}
 
 
 
@@ -146,6 +207,9 @@ nav li {
 and (max-device-width: 414px)
 and (orientation: portrait),
 (max-width: 414px) {
+    
+    /* ----------- MAIN STYLES ------------ */
+    
 
     /* ------------- IMAGES --------------- */
 
@@ -160,7 +224,9 @@ and (max-device-width: 767px),
 (max-width : 767px) {
 
     /* ----------- MAIN STYLES ------------ */
-
+    header {
+        position: relative;
+    }
 
     /* ------------- IMAGES --------------- */
 
@@ -181,10 +247,10 @@ and (max-device-width: 767px),
 /* Smartphones (landscape) Mainly iPhone 4 - 6 */
 @media only screen
 and (min-device-width: 415px)
-and (max-device-width: 767px)
+and (max-device-width: 780px)
 and (orientation: landscape),
 (min-width : 415px)
-and (max-width : 767px) {
+and (max-width : 780px) {
 
     /* ------------- IMAGES --------------- */
 
@@ -196,10 +262,10 @@ and (max-width : 767px) {
 
 /* Tablets (portrait) Mainly iPad */
 @media only screen
-and (min-device-width: 768px)
+and (min-device-width: 780px)
 and (max-device-width: 899px)
 and (orientation: portrait),
-(min-width : 768px)
+(min-width : 780px)
 and (max-width : 899px) {
 
     /* ----------- MAIN STYLES ------------ */
