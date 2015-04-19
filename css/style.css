@@ -1,0 +1,166 @@
+/*
+		Jessica J. Hernandez
+        ID: 0004631401
+        April 19, 2015 - Week 2
+        Web Standards Project | 201504-01
+        Professor: Brandon Brown
+        Full Sail University
+ */
+
+
+/* _____________________________________ */
+/*              MAIN STYLES              */
+/* _____________________________________ */
+
+
+
+
+
+/* _____________________________________ */
+/*              NAVIGATION               */
+/* _____________________________________ */
+
+
+
+
+/* _____________________________________ */
+/*           HEADINGS & TEXT             */
+/* _____________________________________ */
+
+
+
+
+
+
+/* _____________________________________ */
+/*                 LINKS                 */
+/* _____________________________________ */
+
+
+
+
+
+/* _____________________________________ */
+/*               BUTTONS                 */
+/* _____________________________________ */
+
+
+
+
+/* _____________________________________ */
+/*                IMAGES                 */
+/* _____________________________________ */
+
+
+
+
+
+/* _____________________________________ */
+/*                TABLE                  */
+/* _____________________________________ */
+
+
+
+
+/* _____________________________________ */
+/*             MEDIA QUERIES             */
+/* _____________________________________ */
+
+/* Smartphones (portrait) Mainly iPhone 4 - 6 */
+@media only screen
+and (max-device-width: 414px)
+and (orientation: portrait),
+(max-width: 414px) {
+
+    /* ------------- IMAGES --------------- */
+
+
+
+}
+
+
+/* Smartphones (portrait & landscape) Mainly iPhone 4 - 6 */
+@media only screen
+and (max-device-width: 767px),
+(max-width : 767px) {
+
+    /* ----------- MAIN STYLES ------------ */
+
+
+    /* ------------- IMAGES --------------- */
+
+
+
+    /* ------------ NAVIGATION ------------ */
+
+
+
+    /* -------------- TABLE --------------- */
+
+
+
+}
+
+
+
+/* Smartphones (landscape) Mainly iPhone 4 - 6 */
+@media only screen
+and (min-device-width: 415px)
+and (max-device-width: 767px)
+and (orientation: landscape),
+(min-width : 415px)
+and (max-width : 767px) {
+
+    /* ------------- IMAGES --------------- */
+
+
+
+}
+
+
+
+/* Tablets (portrait) Mainly iPad */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 899px)
+and (orientation: portrait),
+(min-width : 768px)
+and (max-width : 899px) {
+
+    /* ----------- MAIN STYLES ------------ */
+
+
+
+    /* --------- HEADINGS & TEXT ---------- */
+
+
+
+    /* ------------ NAVIGATION ------------ */
+
+
+
+    /* ------------- IMAGES --------------- */
+
+
+
+}
+
+
+
+/* Desktops and laptops */
+@media only screen
+and (min-width : 900px) {
+
+    /* ----------- MAIN STYLES ------------ */
+
+
+
+    /* --------- HEADINGS & TEXT ---------- */
+
+
+
+    /* ------------ NAVIGATION ------------ */
+
+
+
+}
