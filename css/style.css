@@ -114,11 +114,6 @@ nav li:last-child {
     margin-right: 0;
 }
 
-.navbar-form {
-    margin: 0;
-    padding: 0;
-    float: right;
-}
 
 
 
@@ -131,13 +126,16 @@ nav li:last-child {
     margin-bottom: 0;
 }
 
-.blurb, .results, #heading {
+.blurb, .results, #heading, .loginHelp, .loginForm, #signUp {
     background-color: hsla(360, 100%, 100%, 0.77);
     border-radius: 5px;
     padding: 3% 2%;
     width: 100%;
-    overflow: auto;
     margin-bottom: 3%;
+}
+
+.blurb, .results, #heading, .loginHelp {
+    overflow: auto;
 }
 
 .blurb > small {
@@ -148,6 +146,19 @@ nav li:last-child {
 
 .blurb > p {
     margin-top: 5%;
+    text-align: center;
+}
+
+.passportItem > h2 {
+    font-size: 1.4em;
+}
+
+.passportItem {
+    background-color: hsla(360, 100%, 100%, 0.77);
+    border-radius: 5px;
+    padding: 5% 5%;
+    width: 100%;
+    margin-bottom: 10%;
     text-align: center;
 }
 
@@ -203,12 +214,21 @@ img {
 
 
 
+/* _____________________________________ */
+/*                 FORMS                 */
+/* _____________________________________ */
 
-
-/* form */
 .navbar-form {
     display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
+
+.signUpForm {
+    
+}
+
 
 
 
