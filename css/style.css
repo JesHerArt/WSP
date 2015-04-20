@@ -114,6 +114,10 @@ nav li:last-child {
     margin-right: 0;
 }
 
+#locationDetails button {
+    margin: 2%;
+}
+
 
 
 
@@ -126,7 +130,7 @@ nav li:last-child {
     margin-bottom: 0;
 }
 
-.blurb, .results, #heading, .loginHelp, .loginForm, #signUp {
+.blurb, .results, #heading, .loginHelp, .loginForm, #signUp, #locationDetails, #locationPhotos {
     background-color: hsla(360, 100%, 100%, 0.77);
     border-radius: 5px;
     padding: 3% 2%;
@@ -202,6 +206,11 @@ img {
     width: 70%;
     border: 1px solid #BFBFBF;
     box-shadow: 2px 2px 4px #666;
+}
+
+#locationPhotos img {
+    margin-bottom: 5%;
+    width: 99%;
 }
 
 
