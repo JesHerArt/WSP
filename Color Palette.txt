@@ -1,0 +1,18 @@
+Color Palette
+
+
+
+Red: #fc8a7a;
+Dark Red: #BD675B;
+
+Green: #94e47f;
+Dark Green: #476E3D;
+
+Blue: #6a99ff;
+Dark Blue: #405C99;
+
+Yellow: #FFF294;
+Dark Yellow: #C9BF5C;
+
+Gray: #4d4d4d;
+Darker Gray: #1F1F1F:

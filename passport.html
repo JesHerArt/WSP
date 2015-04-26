@@ -3,7 +3,7 @@
 <!--
 Jessica J. Hernandez
 ID: 0004631401
-April 19, 2015 - Week 2
+April 26, 2015 - Week 3
 Web Standards Project | 201504-01
 Professor: Brandon Brown
 Full Sail University
@@ -30,6 +30,9 @@ Full Sail University
 
     <!--Favicon-->
     <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -38,28 +41,36 @@ Full Sail University
     <!--START OF HEADER & NAV-->
     <header>
         <div id="topBar">
-            <a href="index.html"><img id="mainLogo" src="images/logo.png" alt="Swap & Hop Logo" title="Swap & Hop Logo" class="floatLeft" /></a>
+            <div id="logo">
+                <a href="index.html"><img id="mainLogo" src="images/logo.png" alt="Swap & Hop Logo" title="Swap & Hop Logo"  /></a>
+            </div>
             
-            <a class="btn btn-primary btn-lg floatRight" href="login.html" role="button">Log in</a>
-            <a class="btn btn-primary btn-lg floatRight" href="signup.html" role="button">Sign up to start swapping!</a>
+            <div id="buttons">
+                <a class="btn btn-primary btn-lg" href="signup.html" role="button">Sign up to start swapping!</a>
+                <a class="btn btn-primary btn-lg" href="login.html" role="button">Log in</a>
+            </div>
         </div>
     
         <nav>
-            <form class="navbar-form floatRight" role="search" action="search-results.html">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default searchBtn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-            </form>
+            <div id="navLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Swap!</a></li>
+                    <li><a href="#">Hop!</a></li>
+                    <li><a href="passport.html" class="activeNav">My Passport</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </div>
             
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Swap!</a></li>
-                <li><a href="#">Hop!</a></li>
-                <li><a href="passport.html">My Passport</a></li>
-                <li><a href="#">Account</a></li>
-            </ul>
+            <div id="searchBox">
+                <form id="mainSearch" class="form-inline" role="search" action="search-results.html">
+                    <div class="form-group" id="mainSearch">
+                        <input type="text" class="form-control mainSearchBox" placeholder="Search">
+                        <button type="submit" class="btn btn-default searchBtn mainSearchBtn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div>
+                </form>
+            </div>
         </nav>  
     </header>
     <!--END OF HEADER & NAV-->
@@ -217,7 +228,7 @@ Full Sail University
                                     <label for="newsletterSignUp">Email</label>
                                     <input type="email" class="form-control" name="newsletterSignUp" id="newsletterSignUp" placeholder="john.doe@email.com">
                                 </div>
-                                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> Sign up!</button>
+                                <button type="submit" class="btn btn-default signUpBtn"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> Sign up!</button>
                             </form>
                         </td>
                     </tr>

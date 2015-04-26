@@ -1,7 +1,7 @@
 /*
 		Jessica J. Hernandez
         ID: 0004631401
-        April 19, 2015 - Week 2
+        April 26, 2015 - Week 3
         Web Standards Project | 201504-01
         Professor: Brandon Brown
         Full Sail University
@@ -18,6 +18,7 @@ body {
     background-position: -40px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Cabin', sans-serif;
 }
 
 .container-fluid {
@@ -80,6 +81,27 @@ hr {
     border-top: 1px solid #fff;
 }
 
+#logo, #buttons {
+    width: 50%;
+    float: left;
+}
+
+#buttons {
+    text-align: right;
+    padding: 4px 0;
+}
+
+#navLinks {
+    float: left;
+    width: 60%;
+}
+
+#searchBox {
+    float: left;
+    width: 40%;
+    position: relative;
+}
+
 
 
 /* _____________________________________ */
@@ -120,7 +142,6 @@ nav li:last-child {
 
 
 
-
 /* _____________________________________ */
 /*           HEADINGS & TEXT             */
 /* _____________________________________ */
@@ -138,17 +159,27 @@ nav li:last-child {
     margin-bottom: 3%;
 }
 
+#heading {
+    background-color: hsla(53, 100%, 87%, 0.8);
+    font-weight: 700;
+    box-shadow: 5px 5px 30px #4d4d4d;
+}
+
+.results, .loginHelp, .loginForm, #signUp, #locationDetails, #locationPhotos {
+    background-color: hsla(360, 100%, 100%, 0.9);
+}
+
 .blurb, .results, #heading, .loginHelp {
     overflow: auto;
 }
 
-.blurb > small {
+.blurb small {
     text-align: right;
     font-weight: bold;
     float: right;
 }
 
-.blurb > p {
+.blurb p {
     margin-top: 5%;
     text-align: center;
 }
@@ -166,6 +197,22 @@ nav li:last-child {
     text-align: center;
 }
 
+tr[class="active"] {
+    background-color: #FFF294 !important;
+    color: #fb6450;
+}
+
+footer .table>tbody>tr.active>th {
+    background-color: #fff7bd;
+    border-bottom-color: #C9BF5C;
+    border-top-color: #C9BF5C;
+}
+
+footer .table>tbody>tr:nth-child(2)>td {
+    border-top-color: #C9BF5C;
+}
+
+
 
 /* _____________________________________ */
 /*                IMAGES                 */
@@ -181,7 +228,10 @@ img {
 }
 
 .jumbotron {
-    background-color: hsla(360, 100%, 100%, 0.65);
+    background-color: hsla(53, 100%, 87%, 0.8);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    font-weight: bold;
 }
 
 .blurb > img {
@@ -208,8 +258,42 @@ img {
     float: right;
 }
 
-.signUpForm {
-    
+#mainSearch {
+    float: right;
+}
+
+.mainSearchBtn, .signUpBtn {
+    background: #b8edab;
+    color: #405C99;
+}
+
+.mainSearchBtn:hover, .signUpBtn:hover {
+    background: #9ce689;
+    color: #fff;
+    text-shadow: 0 1px #405C99;
+}
+
+form input[type], button[type], button[type]:hover {
+    border-color: #405C99;
+}
+
+
+
+/* _____________________________________ */
+/*                 LINKS                 */
+/* _____________________________________ */
+
+a {
+    color: #6a99ff;
+}
+
+a:hover {
+    color: #405C99;
+}
+
+.activeNav {
+    color: #C9BF5C;
+    text-decoration: underline;
 }
 
 
@@ -247,10 +331,30 @@ img {
         }
         
         #topBar, footer, nav {
-            padding: 0 1% 3%;
+            padding: 3% 1%;
         }
         #mainLogo {
             margin-bottom: 10px;
+        }
+        
+        #logo, #buttons, #navLinks, #searchBox {
+            width: 100%;
+            text-align: center;
+        }
+        
+        #searchBox {
+            margin-top: 10px;
+        }
+        
+        #mainSearch {
+            float: none;
+            margin: 0;
+            vertical-align: top !important;
+        }
+        
+        .mainSearchBox {
+            width: 88%;
+            display: inline-block;
         }
 	
 	}
@@ -261,9 +365,11 @@ img {
 @media only screen
 	and (max-device-width: 485px),
 	(max-width : 485px) {
-	
-	
-
+	   
+        nav {
+            font-size: 92%;
+        }
+        
 	}
 	
 	
