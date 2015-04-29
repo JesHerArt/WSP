@@ -469,11 +469,6 @@ a:hover {
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
-        
-        footer {
-            position: absolute;
-            bottom: 0;
-        }
 
 	}
 	
@@ -543,7 +538,7 @@ a:hover {
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100%;
-            background-position: -100px;
+            background-position: -200px;
         }
 	
 	}
@@ -573,7 +568,7 @@ a:hover {
             background-image: url("../images/background2.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: 150%;
+            background-size: 200%;
         }
         
 	}
