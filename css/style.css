@@ -469,7 +469,7 @@ a:hover {
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: top;
-            background-size: cover;
+            background-size: contain;
         }
 
 	}
@@ -533,6 +533,14 @@ a:hover {
         
         .threeCol {
             display: none;
+        }
+        
+        body {
+            background-image: url("../images/background2.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: top;
+            background-size: contain;
         }
 	
 	}
