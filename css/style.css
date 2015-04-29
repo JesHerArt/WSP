@@ -19,6 +19,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Cabin', sans-serif;
+    background-size: cover;
 }
 
 .container-fluid {
