@@ -538,7 +538,7 @@ a:hover {
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100%;
-            background-position: -200px;
+            background-position: 0 -100px;
         }
 	
 	}
@@ -568,7 +568,7 @@ a:hover {
             background-image: url("../images/background2.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: 200%;
+            background-size: 700px;
         }
         
 	}
