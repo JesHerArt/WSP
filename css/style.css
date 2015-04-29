@@ -469,7 +469,7 @@ a:hover {
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: top;
-            background-size: contain;
+            background-size: 100%;
         }
 
 	}
@@ -540,7 +540,7 @@ a:hover {
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: top;
-            background-size: contain;
+            background-size: cover;
         }
 	
 	}
