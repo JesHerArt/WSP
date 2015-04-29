@@ -14,12 +14,11 @@
 
 body {
     background-image: url("../images/villa.jpg");
-    position: relative;
-    background-position: -40px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: -40px;
     font-family: 'Cabin', sans-serif;
-    background-size: cover;
+    position: relative;
 }
 
 .container-fluid {
