@@ -468,6 +468,7 @@ a:hover {
             background-image: url("../images/background3.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
+            background-size: 100%;
         }
 
 	}
@@ -533,14 +534,14 @@ a:hover {
             display: none;
         }
         
-        body {
+        /*body {
             background-image: url("../images/background2.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100%;
             background-position: 0 -100px;
         }
-	
+	*/
 	}
 	
 	
@@ -564,12 +565,12 @@ a:hover {
             line-height: 1.3em;
         }
         
-        body {
+       /* body {
             background-image: url("../images/background2.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 700px;
-        }
+        }*/
         
 	}
 	
