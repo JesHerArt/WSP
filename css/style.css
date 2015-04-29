@@ -596,5 +596,9 @@ a:hover {
         .imgThmb {
             width: 100%;
         }
+        
+        body {
+            background-size: 120%;
+        }
 
 	}
