@@ -165,35 +165,21 @@ nav li:last-child {
 }
 
 #heading {
-    background-color: hsla(108, 65%, 70%, 0.4);
+    background-color: #c3f6b6;
     box-shadow: 0 0 50px #fff;
     font-family: 'Raleway', sans-serif;
-    color: #730f02;
+    /*color: #730f02;*/
+    color: #1b2d41;
     text-shadow: 0 1px #fff, 0 -1px #fff, 1px 0 #fff, -1px 0 #fff, 2px 2px 10px #132e00;
     border-radius: 5px;
     padding: 0 2%;
     width: 100%;
     margin-bottom: 3%;
-    display: block;
-    position: relative;
-    border: 1px solid #132e00;
+    border-bottom: 2px solid #132e00;
 }
 
 #heading h1 {
     margin: 2.5% 0;
-}
-
-#heading::after {
-    content: "";
-    background: url(../images/gplaypattern.png);
-    background-repeat: repeat;
-    opacity: 0.9;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; 
 }
 
 .results, .loginHelp, .loginForm, #signUp, #locationDetails, #locationPhotos, .passportItem {
@@ -494,6 +480,13 @@ a:hover {
         
         #heading h1 {
             margin: 3.3% 0;
+        }
+        
+        body {
+            background-image: url("../images/background3.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
         }
 
 	}
