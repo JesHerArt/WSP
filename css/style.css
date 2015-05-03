@@ -72,7 +72,7 @@ footer {
 }
 
 #topBar > a {
-    margin: 0.4% 0 0 10px;
+    margin: .4% 0 0 10px;
 }
 
 hr {
@@ -114,7 +114,7 @@ hr {
 
 nav {
     background-color: #F2F2F2;
-    font-weight: bold;
+    font-weight: 700;
     border-bottom: 1px solid #BFBFBF;
     border-top: 1px solid #fff;
     vertical-align: middle;
@@ -157,6 +157,8 @@ nav li:last-child {
 
 .blurb, .results, .loginHelp, .loginForm, #signUp, #locationDetails, #locationPhotos {
     background-color: hsla(360, 100%, 100%, 0.77);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     border-radius: 5px;
     padding: 3% 2%;
     width: 100%;
@@ -165,10 +167,14 @@ nav li:last-child {
 
 #heading {
     background-color: #c3f6b6;
+    -webkit-box-shadow: 0 0 50px #fff;
+    -moz-box-shadow: 0 0 50px #fff;
     box-shadow: 0 0 50px #fff;
     font-family: 'Raleway', sans-serif;
     color: #1b2d41;
     text-shadow: 0 1px #fff, 0 -1px #fff, 1px 0 #fff, -1px 0 #fff, 2px 2px 10px #132e00;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     border-radius: 5px;
     padding: 0 2%;
     width: 100%;
@@ -190,7 +196,7 @@ nav li:last-child {
 
 .blurb small {
     text-align: right;
-    font-weight: bold;
+    font-weight: 700;
     float: right;
 }
 
@@ -204,8 +210,10 @@ nav li:last-child {
 }
 
 .passportItem {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     border-radius: 5px;
-    padding: 5% 5%;
+    padding: 5%;
     width: 100%;
     margin-bottom: 10%;
     text-align: center;
@@ -267,7 +275,7 @@ img {
     background-color: hsla(108, 78%, 84%, 0.85);
     padding-bottom: 3%;
     padding-top: 3%;
-    font-weight: bold;
+    font-weight: 700;
     display: block;
     position: relative;
     border: 1px solid #132e00;
@@ -276,6 +284,8 @@ img {
 .blurb > img {
     width: 70%;
     border: 1px solid #BFBFBF;
+    -webkit-box-shadow: 2px 2px 4px #666;
+    -moz-box-shadow: 2px 2px 4px #666;
     box-shadow: 2px 2px 4px #666;
 }
 
@@ -287,6 +297,8 @@ img {
 
 .results > .img-thumbnail, #locationDetails .img-thumbnail, #locationPhotos .img-thumbnail, .passportItem .img-thumbnail {
     border-color: #94e47f;
+    -webkit-box-shadow: 0 0 10px hsla(0, 0%, 30%, 0.4);
+    -moz-box-shadow: 0 0 10px hsla(0, 0%, 30%, 0.4);
     box-shadow: 0 0 10px hsla(0, 0%, 30%, 0.4);
 }
 
@@ -534,15 +546,6 @@ a:hover {
             display: none;
         }
         
-        /*body {
-            background-image: url("../images/background2.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100%;
-            background-position: 0 -100px;
-        }
-	*/
-        
         body {
             background-image: url("../images/background3.jpg");
             background-repeat: no-repeat;
@@ -571,13 +574,6 @@ a:hover {
             margin: 5.5% 0;
             line-height: 1.3em;
         }
-        
-       /* body {
-            background-image: url("../images/background2.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 700px;
-        }*/
         
         body {
             background-size: 125%;
